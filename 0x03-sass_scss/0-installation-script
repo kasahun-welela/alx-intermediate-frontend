@@ -1,0 +1,5 @@
+Steps to install SASS
+
+1. Install Node
+2. Install sass using the following command
+   npm install sass -v 3.7.4
