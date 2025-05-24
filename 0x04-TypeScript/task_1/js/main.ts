@@ -37,3 +37,21 @@ const printTeacher = ({firstName, lastName}: printTeacherFunction) => {
 }
 
 console.log(printTeacher({firstName: "trizah", lastName: "abel"}));
+
+class StudentClass {
+  firstName: string;
+  lastName:string;
+  constructor(firstName:string, lastName:string) {
+    this.firstName= firstName;
+    this.lastName= lastName
+
+    
+  }
+  workOnHomeWork(): string {
+    return "currently working"
+    
+  }
+  displayName(): string {
+    return this.firstName
+  }
+}
